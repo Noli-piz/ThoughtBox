@@ -1,0 +1,8 @@
+Thought Box is build to create to post about your thoughts
+
+Built In
+	React JS
+	Node JS
+
+Library Used
+	
