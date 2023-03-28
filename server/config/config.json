@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "freedb_nowls",
-    "password": "ZcK3FR!jZpbm$NY",
-    "database": "freedb_thoughtbox",
-    "host": "sql.freedb.tech",
+    "username": "root",
+    "password": null,
+    "database": "thoughtboxdb",
+    "host": "localhost",
     "dialect": "mysql"
   },
   "test": {

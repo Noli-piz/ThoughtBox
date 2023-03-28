@@ -85,7 +85,7 @@ function Register() {
         }
 
         // Atleast 4 character username
-        if(username.length < 5) {
+        if(username.length < 4) {
             error_count = 1;
         }
 
@@ -155,7 +155,7 @@ function Register() {
                         onChange={(e) => {setUsername(e.target.value.trim())}} 
                         />
                     { !username && <div style={{width:"335px", color:"red", transform:"translate(8px, -18px)", fontSize:"14px"}} > Username is required! </div>}
-                    { username !== " " && username.length < 5 && <div style={{width:"335px", color:"red", transform:"translate(8px, -18px)", fontSize:"14px"}} > Please enter atleast 4 characters. </div>}
+                    { username !== " " && username.length < 4 && <div style={{width:"335px", color:"red", transform:"translate(8px, -18px)", fontSize:"14px"}} > Please enter atleast 4 characters. </div>}
 
 
                     <input 
