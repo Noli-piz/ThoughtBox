@@ -1,0 +1,96 @@
+.userNavbar{
+  height: 70px;
+  padding: 1px 50px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  /* background-color: rgb(255, 255, 255); */
+  box-shadow: 0px 1px 5px 0px pink;
+}
+
+.nav-logo{
+  width: 200px;
+}
+
+.profilePic{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  justify-items: center;
+  color: black;
+}
+
+.profilePic:active{
+  transform: scale(.9);
+}
+
+.logout-card{
+  width: 20%;
+  min-width: 200px;
+  box-shadow: 0 3px 9px 1px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 20px;
+  margin: 8px 20px 20px 0px;
+  background-color: rgb(255, 255, 255);
+  display: block;
+  position: fixed;
+  z-index: 2;
+  right: 0;
+}
+
+.logout-card:hover {
+  box-shadow: 0 6px 12px 2px rgba(0,0,0,0.2);
+}
+
+.logout-username{
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+
+.btnAbout, .btnTerms, .btnLogout, .btnPrivacy{
+  width: 100%;
+  padding: 20px 20px;
+  margin: 5px 0px;
+  text-align: start;
+  border: none;
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  font-size: 12pt;
+  display: flex;
+  align-content: center;
+}
+.btnAbout:hover, .btnTerms:hover, .btnLogout:hover , .btnPrivacy:hover{
+  outline: 1px solid black;
+}
+
+@media only screen and (max-width: 1200px) {
+  .userNavbar{
+    height: 50px;
+    padding: 1px 20px;
+  }
+
+  .nav-logo{
+    width: 120px;
+  }
+
+  .profilePic{
+    width: 30px;
+    height: 30px;
+  }
+  
+
+  .logout-card{
+    transform: scale(.9);
+    margin-top: -10px;
+  }
+
+  .btnAbout, .btnTerms, .btnLogout, .btnPrivacy{
+    font-size: 10pt;
+    font-weight: 200;
+    padding: 15px 15px;
+  }
+}
+
+
